@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Kala's Portfolio</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: black;
+            color: rgb(186, 186, 186);
+            font-family: 'Poppins', sans-serif;
+            margin: 0 10%;
+            font-size: 1rem;
+        }
+
+        
+        .navbar {
+            padding: 1rem 0;
+        }
+        .nav-link {
+            color: rgb(186, 186, 186) !important;
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+
+        .navbar-brand {
+            color: #ff7f69;
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.5rem;
+
+        }
+
+        
+         
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .nav-link.active {
+            color: #ff7f69 !important;
+            text-decoration: underline;
+        }
+        .highlight-orange {
+            color: #ff7f69;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #444444;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: black;
+        }
+        .footer-social-icons img {
+            width: 35px;
+            height: 35px;
+            margin: 0 10px;
+        }
+        .copyright {
+            margin-top: 10px;
+            color: #cecece;
+        }
+        .contact-section {
+            background-color: black;
+            padding: 40px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+            width: 50%;
+            margin: auto;
+            text-align: center;
+        }
+        .contact-section h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            
+            border-radius: 5px;
+            background-color: black;
+            color: white;
+        }
+        .form-group input:focus, .form-group textarea:focus {
+            border-color: #ff7f69;
+            outline: none;
+        }
+        .btn-send {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ff7f69;
+            background-color: transparent;
+            color: #ff7f69;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .btn-send:hover {
+            background-color: #ff7f69;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <b><a class="navbar-brand" href="index.html">KB</a></b>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="work.html">My Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <br><br><br><div class="contact-section">
+        <h1 class="highlight-orange">Contact Me</h1>
+        <p class="text-left">Feel free to drop a message or connect with me on social media!</p>
+
+        <!-- Contact Form -->
+        <form action="#" method="post">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn-send">Send Message</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-social-icons">
+            <a href="https://www.linkedin.com/in/kala-ballurkar-b82906289/" target="_blank">
+                <img src="img/in.png" alt="LinkedIn Logo">
+            </a>
+            <a href="https://www.instagram.com/kalaballurkar/" target="_blank">
+                <img src="img/insta.png" alt="Instagram Logo">
+            </a>
+        </div>
+        <div class="copyright">
+            © 2024 Kala Ballurkar. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

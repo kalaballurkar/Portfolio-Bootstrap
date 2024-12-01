@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Kala's Portfolio</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: black;
+            color: rgb(186, 186, 186);
+            font-family: 'Poppins', sans-serif;
+            margin: 0 10%;
+            font-size: 1rem; /* Reduced base font size */
+        }
+        .navbar {
+            padding: 1rem 0;
+        }
+        .navbar {
+            padding: 1rem 0;
+        }
+        .nav-link {
+            color: rgb(186, 186, 186) !important;
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px; /* Increased spacing between navbar options */
+        }
+        .nav-link.active {
+            color: #ff7f69 !important;
+            text-decoration: underline;
+        }
+        .highlight-orange {
+            color: #ff7f69;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .btn-outline-orange {
+            color: #ff7f69;
+            border-color: #ff7f69;
+            border-radius: 25px;
+            padding: 10px 25px;
+            font-size: 1.1rem;
+        }
+        .btn-outline-orange:hover {
+            background-color: #ff7f69;
+            color: black;
+        }
+        footer {
+            background-color: #444444;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: black;
+        }
+        .footer-social-icons img {
+            width: 35px;
+            height: 35px;
+            margin: 0 10px;
+        }
+        .navbar-brand {
+            color: #ff7f69;
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.5rem;
+
+        }
+        .copyright {
+            margin-top: 10px;
+            color: #cecece;
+        }
+
+        .about-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: px;
+        }
+
+        .about-text {
+            max-width: 60%;
+        }
+
+        .about-text img {
+            width: 300px;
+            height: 400px;
+            border-radius: 8px;
+        }
+
+        .skills-section {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+
+        .skills-box {
+            background-color: #2f2f2f; /* Light grey background */
+            padding: 20px;
+            border-radius: 8px;
+            width: 48%; /* Make sections take up 48% of the space */
+        }
+
+        .skills-box h3 {
+            color: #ff7f69;
+            font-size: 1.5rem;
+        }
+
+        .skills-box ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills-box ul li {
+            font-size: 1.1rem;
+        }
+
+        .footer-social-icons img {
+            width: 35px;
+            height: 35px;
+            margin: 0 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <b><a class="navbar-brand" href="index.html">KB</a></b>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="work.html">My Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="mt-5">
+        <br><h1 style="color: #ff7f69; ">About Me</h1>
+        
+        <!-- About Section -->
+        <div class="about-section">
+            <div class="about-text">
+                <p>
+                    Hi, I’m Kala Ballurkar, a 19-year-old communication design student passionate about UI/UX, content writing, digital art, and trekking. I thrive on creativity and enjoy crafting designs that tell stories and solve problems. Let’s connect and create something exciting together!
+                </p>
+            </div>
+            <img src="bleh2.png" alt="Kala's Photo" style="height: 300px;">
+        </div>
+
+        <!-- Skills Section -->
+        <div class="skills-section">
+            <!-- Technical Skills -->
+            <div class="skills-box">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li>UI/UX Design</li>
+                    <li>Prototyping Tools (Figma)</li>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Content Writing</li>
+                    <li>Adobe Creative Suite</li>
+                </ul>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="skills-box">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Creative Thinking</li>
+                    <li>Problem-Solving</li>
+                    <li>Collaboration</li>
+                    <li>Adaptability</li>
+                    <li>Attention to Detail</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="mt-5">
+            <a href="contact.html"><button class="btn btn-outline-orange">Reach Out</button></a>
+            <a href="work.html"><button class="btn btn-outline-orange ml-4">My Work</button></a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-social-icons">
+            <a href="https://www.linkedin.com/in/kala-ballurkar-b82906289/" target="_blank">
+                <img src="img/in.png" alt="LinkedIn Logo">
+            </a>
+            <a href="https://www.instagram.com/kalaballurkar/" target="_blank">
+                <img src="img/insta.png" alt="Instagram Logo">
+            </a>
+        </div>
+        <div class="copyright">
+            © 2024 Kala Ballurkar. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>

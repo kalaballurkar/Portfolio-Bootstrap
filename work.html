@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Works - Kala's Portfolio</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: black;
+            color: rgb(186, 186, 186);
+            font-family: 'Poppins', sans-serif;
+            margin: 0 10%;
+            font-size: 1rem;
+        }
+        .navbar {
+            padding: 1rem 0;
+        }
+        .navbar {
+            padding: 1rem 0;
+        }
+
+        .nav-link {
+            color: rgb(186, 186, 186) !important;
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+        .navbar-brand {
+            color: #ff7f69;
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.5rem;
+
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px;
+        }
+        .nav-link.active {
+            color: #ff7f69 !important;
+            text-decoration: underline;
+        }
+        .highlight-orange {
+            color: #ff7f69;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            text-align: center;
+        }
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            text-align: center;
+        }
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #444444;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: black;
+        }
+        .footer-social-icons img {
+            width: 35px;
+            height: 35px;
+            margin: 0 10px;
+        }
+        .copyright {
+            margin-top: 10px;
+            color: #cecece;
+        }
+        .project-section {
+            margin-bottom: 50px;
+            background-color: rgb(25, 25, 25);
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+            padding: 20px;
+        }
+        .project-section h3 {
+            text-align: left;
+            padding-bottom: 10px;
+        }
+        .project-description {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .image-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .image-grid img {
+            height: 250px;
+            width: auto;
+            max-width: 100%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <b><a class="navbar-brand" href="index.html">KB</a></b>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="work.html">My Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="mt-5">
+        <h1 style="color: #ff7f69;">My Works</h1>
+        <p style="color: #cecece; text-align: center;">Here’s a glimpse into what I love creating.</p>
+
+        <!-- Nue Cafe Rebranding Section -->
+        <div class="project-section">
+            <h3 class="highlight-orange p-3">Nue Cafe Rebranding</h3>
+            <div class="image-grid">
+                <img src="img/11.png" alt="Image 1" data-toggle="modal" data-target="#imageModal" data-src="img/11.png">
+                <img src="img/12.png" alt="Image 2" data-toggle="modal" data-target="#imageModal" data-src="img/12.png">
+                <img src="img/13.png" alt="Image 3" data-toggle="modal" data-target="#imageModal" data-src="img/13.png">
+                <img src="img/14.png" alt="Image 4" data-toggle="modal" data-target="#imageModal" data-src="img/14.png">
+                <img src="img/15.png" alt="Image 5" data-toggle="modal" data-target="#imageModal" data-src="img/15.png">
+            </div>
+            <div class="project-description">
+                <p>This is a rebrand for Nue, a cafe in Hyderabad, Telangana. The brief was to create a playful vibe with doodles and a fun colour palette.</p>
+            </div>
+        </div>
+
+        <!-- Digital Art Section -->
+        <div class="project-section">
+            <h3 class="highlight-orange p-3">Digital Art</h3>
+            <div class="image-grid">
+                <img src="img/si/21.png" alt="Digital Art 1" data-toggle="modal" data-target="#imageModal" data-src="img/si/21.png">
+                <img src="img/si/22.jpg" alt="Digital Art 2" data-toggle="modal" data-target="#imageModal" data-src="img/si/22.jpg">
+                <img src="img/si/23.jpg" alt="Digital Art 3" data-toggle="modal" data-target="#imageModal" data-src="img/si/23.jpg">
+                <img src="img/si/25.jpg" alt="Digital Art 5" data-toggle="modal" data-target="#imageModal" data-src="img/si/25.jpg">
+            </div>
+            <div class="project-description">
+                <p>Digital art lets me turn ideas into colorful, creative visuals. Each piece is a mix of imagination and detail. Take a look at my work!</p>
+            </div>
+        </div>
+
+        <!-- Posters Section -->
+        <div class="project-section">
+            <h3 class="highlight-orange p-3">Posters</h3>
+            <div class="image-grid">
+                <img src="img/POSTER/31.png" alt="Poster 1" data-toggle="modal" data-target="#imageModal" data-src="img/POSTER/31.png">
+                <img src="img/POSTER/32.png" alt="Poster 2" data-toggle="modal" data-target="#imageModal" data-src="img/POSTER/32.png">
+                <img src="img/POSTER/33.png" alt="Poster 3" data-toggle="modal" data-target="#imageModal" data-src="img/POSTER/33.png">
+                <img src="img/POSTER/34.png" alt="Poster 4" data-toggle="modal" data-target="#imageModal" data-src="img/POSTER/34.png">
+                <img src="img/POSTER/35.png" alt="Poster 5" data-toggle="modal" data-target="#imageModal" data-src="img/POSTER/35.png">
+            </div>
+            <div class="project-description">
+                <p>Posters are my way of blending design and storytelling. Each one is crafted to catch the eye and leave an impact. Check them out.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-social-icons">
+            <a href="https://www.linkedin.com/in/kala-ballurkar-b82906289/" target="_blank">
+                <img src="img/in.png" alt="LinkedIn Logo">
+            </a>
+            <a href="https://www.instagram.com/kalaballurkar/" target="_blank">
+                <img src="img/insta.png" alt="Instagram Logo">
+            </a>
+        </div>
+        <div class="copyright">
+            © 2024 Kala Ballurkar. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img id="modalImage" src="" class="img-fluid" alt="Expanded Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Script to change the image in the modal -->
+    <script>
+        $(document).ready(function() {
+            // When an image is clicked, show the modal and update the modal image source
+            $('img[data-toggle="modal"]').click(function() {
+                var imgSrc = $(this).attr('data-src');
+                $('#modalImage').attr('src', imgSrc);
+            });
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kala's Portfolio</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: black;
+            color: rgb(186, 186, 186);
+            font-family: 'Poppins', sans-serif;
+            margin: 0 10%;  /* Empty space on both sides */
+            font-size: 1rem; /* Reduced base font size */
+        }
+        .navbar {
+            padding: 1rem 0;
+        }
+       
+        .nav-link {
+            color: rgb(186, 186, 186) !important;
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+        .navbar-nav .nav-item {
+            margin-right: 30px; /* Increased spacing between navbar options */
+        }
+        .nav-link.active {
+            color: #ff7f69 !important;
+            text-decoration: underline;
+        }
+        .highlight-orange {
+            color: #ff7f69;
+        }
+        h1 {
+            font-size: 4rem;  /* Reduced header size */
+            font-weight: 700;
+        }
+        h3 {
+            font-size: 2.2rem;  /* Reduced subheader size */
+            font-weight: 600;
+        }
+        p {
+            font-size: 1rem;  /* Slightly smaller paragraph font */
+            line-height: 1.6;  /* Improved readability */
+        }
+        .social-icons img {
+            width: 40px;   /* Adjusted size for visibility */
+            height: 40px;
+            margin-right: 10px;
+        }
+        .btn-outline-orange {
+            color: #ff7f69;
+            border-color: #ff7f69;
+            border-radius: 25px;
+            padding: 10px 25px;
+            font-size: 1.1rem;
+        }
+        .btn-outline-orange:hover {
+            background-color: #ff7f69;
+            color: black;
+        }
+        footer {
+            background-color: #444444; /* Light grey background */
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9rem;  /* Slightly smaller footer text */
+            color: rgb(255, 255, 255);  /* Text color for contrast */
+        }
+        .footer-social-icons img {
+            width: 35px;
+            height: 35px;
+            margin: 0 10px;
+        }
+        .copyright {
+            margin-top: 10px;
+            color: #cecece;  /* Dark grey for subtle contrast */
+        }
+        .navbar-brand {
+            color: #ff7f69;
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.5rem;
+
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <b><a class="navbar-brand" href="index.html">KB</a></b>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="work.html">My Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="mt-5">
+        <h1>Hi, It's <span class="highlight-orange">Kala</span></h1>
+        <h3>I'm an <span class="highlight-orange">Aspiring Creative Professional</span></h3>
+        <p class="mt-4">
+            I’m a Digital Designer and a Communication Design student based out of Mumbai, India. I excel at Brand Design, Interface Design, Content Writing, Social Media Management, and Digital Art.
+        </p>
+        <p>
+            Beyond my core skills, I enjoy exploring writing and video editing. I'm an avid reader, passionate about travel and trekking, and I love discovering new cultures.
+        </p>
+
+        <!-- Social Icons with Placeholder Images -->
+        <div class="social-icons mt-4">
+            <a href="https://www.linkedin.com" target="_blank">
+                <img src="img/in.png" alt="LinkedIn Logo">
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="img/insta.png" alt="Instagram Logo">
+            </a>
+        </div>
+
+        <!-- Reach Out Button -->
+        <div class="mt-5">
+            <a href="contact.html"><button class="btn btn-outline-orange">Reach Out</button></a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-social-icons">
+            <a href="https://www.linkedin.com/in/kala-ballurkar-b82906289/" target="_blank">
+                <img src="img/in.png" alt="LinkedIn Logo">
+            </a>
+            <a href="https://www.instagram.com/kalaballurkar/" target="_blank">
+                <img src="img/insta.png" alt="Instagram Logo">
+            </a>
+        </div>
+        <div class="copyright">
+            © 2024 Kala Ballurkar. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
